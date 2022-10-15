@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+	font-family: 'RobotoS';
+	src: url(fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
+}
+/* to remove the scrollbar */
+body,html{
+    overflow-x: hidden;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Roboto",sans-serif;
+}
+header{
+    width:100vw;
+    height:100vh;
+    background-image: url("./Images/bkground.jpg");
+    background-size: cover;
+    background-position:bottom ;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.header-content{
+    margin-bottom: 600px;
+    color: whitesmoke;
+
+}
+.header-content h3{
+    font-size: 4vmin;
+}
+.header-content h3 span{
+    color: rgb(214, 24, 167);
+}
+.header-content h2{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.cta{
+    color:whitesmoke;
+    background-color: rgb(214, 24, 167);
+    border-radius: 4rem;
+    padding:.6rem;
+}
+/* navbar part */
+ul{
+    list-style: none;
+}
+.navbar{
+    position: fixed;
+	z-index: 100; 
+	left: 0;
+	top: 0;
+	width: 100vw;
+	min-height: 8vh;
+    background-color:  rgb(214, 24, 167);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color:whitesmoke;
+    padding:5px;
+    font-size: 18px;
+}
+.navbar-links{
+    display:flex;
+    align-items: center;
+
+}
+.navbar-links  li a{
+    margin:0 30px;
+    color:whitesmoke;
+}
+/*  ////////// Upcoming Events part //////////*/
+  
+#upcomingEvents{
+    width:80%;
+    margin:50px auto;
+    /* You can set the margin property to auto
+     to horizontally center the element within its container. */
+}
+.title{
+    color: rgb(214, 24, 167);
+    text-align: center;
+    font-size: 24px;
+}
+.row{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col img{
+    width:40vh;
+    padding:.6rem;
+}
+#upcomingEvents .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    margin:.6rem auto;
+}
+p{
+    padding:0 40px;
+    margin-bottom: 1rem;
+}
+.upcomingEvents .cta{
+    margin-top: 5px;
+}
+/* quote */
+.quote{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80vmax;
+    margin:3rem auto;
+    background-color: #93a5ec;
+    color:whitesmoke;
+}
+.quote .authorQuote{
+    padding:15px;
+}
+.quote .authorName{
+    padding:10px;
+}
+/* ////////////////////////end quote part /////////////// */
+/* ///////////////////////cta part /////////////////////////////////// */
+.ctabottom{
+background-color: #052bc0;
+display: flex;
+flex-direction: column;
+width:60vmax;
+margin:3rem auto;
+border-radius: .4rem;;
+}
+.ctabottom p{
+    padding:1rem;
+    margin:.6rem;
+    color:whitesmoke;
+}
+.ctabottom  .cta{
+ width:10%;
+margin-left: 70%;
+margin-bottom:1rem;
+
+}
+/*   ////////////////////end of cta //////////////////////////////////// */
+
+
+/* footer */
+footer{
+    width:100%;
+    height:5vh;
+    text-align: center;
+    padding:10px 0 10px 0;
+    background-color:  rgb(63, 50, 60);
+}
+footer h3{
+    color:whitesmoke;
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+
+
